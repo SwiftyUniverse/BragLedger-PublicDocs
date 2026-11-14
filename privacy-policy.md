@@ -60,11 +60,11 @@ Without enabled Plus sync, gameplay records are not automatically uploaded by Br
 
 Separately, data can leave your device when you choose to share a receipt, recap, leaderboard snapshot, or JSON archive.
 
-Emailing support sends the content you choose to provide through your email service and the support mailbox provider. BragLedger has no in-app support form or automatic support upload.
+Emailing support sends the content you choose to provide through your email service and Google Workspace, which hosts the support mailbox. Conner Glasgow can access that correspondence to respond. BragLedger has no in-app support form or automatic support upload.
 
 When you send something to another app, cloud drive, message thread, or service, that destination handles the copy you sent under its own privacy terms.
 
-Apple's privacy policy and GitHub's privacy statement describe their data handling and international safeguards. These providers may process data outside your country. Contact support with questions about the handling or transfer of support correspondence.
+Apple's privacy policy, GitHub's privacy statement and Google Workspace's privacy information describe their data handling and international safeguards. These providers may process data outside your country. Contact support with questions about the handling or transfer of support correspondence.
 
 - Apple handles App Store downloads, subscriptions, billing, refunds, verified transactions, and private iCloud storage under Apple's policies and service terms.
 - BragLedger does not run a separate developer-operated analytics, advertising, account, or gameplay backend.
