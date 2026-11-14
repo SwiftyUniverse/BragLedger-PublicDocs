@@ -95,48 +95,51 @@
       <p class="eyebrow">BragLedger</p>
       <h1>Privacy Choices</h1>
       <p class="note">
-        BragLedger keeps your gameplay data on this device. You can export it or wipe it from Settings.
+        BragLedger keeps an offline local copy. Enabled Plus sync mirrors your entire record book, including Personal and Club records, through your private iCloud database. Settings has export and scoped deletion controls.
       </p>
-      <p class="meta">Last updated: May 1, 2026</p>
+      <p class="meta">Last updated: November 13, 2026</p>
     </header>
 
     <aside>
-      These choices reflect the current local-only build. Re-review them before shipping any new always-on off-device data path beyond user-initiated sharing/export.
+      These choices reflect BragLedger 2.0. Apple purchase history and copies you previously sent to another destination are outside BragLedger's app-managed deletion scope.
     </aside>
 
     <section>
         <h2>1. Manage data in the app</h2>
         <ul>
         <li>Use <strong>Export Data</strong> in Settings if you want a portable JSON copy.</li>
-        <li>Use <strong>Delete All BragLedger Data</strong> in Settings to remove app data from this device.</li>
+        <li>Turn private iCloud sync off and keep the active local store.</li>
+        <li>Delete only the new private-cloud copy after BragLedger verifies a recoverable local archive.</li>
+        <li>Use <strong>Delete Everywhere</strong> to remove app-managed local data, recovery archives, relevant preferences/temporary exports, and the current BragLedger private-cloud zone. Use Legacy iCloud Cleanup separately for a retired cloud copy.</li>
         <li>Remove saved players from the Saved Players screen.</li>
         <li>Remove saved teams from the Saved Teams screen.</li>
         <li>Delete saved game types if you no longer want those setups available.</li>
         <li>Delete custom leaderboards if you no longer want their manual tallies.</li>
-        <li>Delete the app from your device if you want to remove the local copy from that device.</li>
+        <li>Deleting the app removes its local copy; private iCloud records, Apple-managed backups, and copies you shared or exported need separate controls.</li>
         </ul>
     </section>
 
     <section>
       <h2>2. Understand sync and retention</h2>
       <ul>
-        <li>BragLedger keeps gameplay data on this device during normal app use.</li>
-        <li>Saved roster items, match history, game setups, and leaderboard data remain until you remove them in the app or use <strong>Delete All BragLedger Data</strong>.</li>
+        <li>BragLedger keeps gameplay data on this device as an offline local replica. Version 1.x does not use the 2.0 Plus sync flow; retired cloud copies have a separate Legacy iCloud Cleanup action.</li>
+        <li>While Plus sync is active, your entire record book, including Personal and Club records, automatically mirrors through your private iCloud database after disclosure.</li>
+        <li>Expiration stops mirroring at a safe reload but does not delete local or cloud records.</li>
       </ul>
     </section>
 
     <section>
       <h2>3. Control sharing</h2>
       <ul>
-        <li>BragLedger creates a share image or export archive only when you explicitly use the iOS share sheet or export flow.</li>
-        <li>You choose the destination. If you do not share or export, the app does not send that snapshot or archive to a developer-run server in the current version.</li>
+        <li>Sending a share image or export archive to another app requires your explicit choice. Recovery archives are created locally for migration and safe sync changes.</li>
+        <li>You choose the destination. Sharing/export is separate from private Plus iCloud sync, and the app has no developer-run gameplay server.</li>
       </ul>
     </section>
 
     <section>
       <h2>4. App Store billing</h2>
       <ul>
-        <li>App downloads, billing, and refunds are handled through Apple.</li>
+        <li>App downloads, billing, and refunds are handled through Apple. Deleting app data does not cancel a subscription; manage or cancel it in your Apple Account settings.</li>
         <li>To manage App Store billing, refunds, or purchase-record questions, use Apple's purchase support and your Apple account tools.</li>
       </ul>
     </section>
@@ -150,7 +153,7 @@
         <strong><a href="mailto:support@zenjutsu.net">support@zenjutsu.net</a></strong>
       </p>
       <p>
-        Many access, correction, export, and deletion actions can be handled directly in the app because BragLedger exposes <strong>Export Data</strong> and <strong>Delete All BragLedger Data</strong> in Settings.
+        Many access, correction, anonymization, export, sync-disable, cloud-only deletion, and delete-everywhere actions can be handled directly in the app.
       </p>
     </section>
 
